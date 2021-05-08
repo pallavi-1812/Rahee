@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about p {
+  font-size: 1.4rem;
+  text-align: left;
+}
+@media screen and (max-width: 992px) {
+  .about p {
+    text-align: center;
+  }
+}

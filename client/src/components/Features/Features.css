@@ -1,0 +1,26 @@
+.features {
+  background-color: #421c52;
+  height: 100%;
+}
+.card {
+  height: 30rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5rem;
+}
+.card-btns,
+.card-btns:active,
+.card-btns:visited {
+  background-color: #9c0a97 !important;
+  border: none;
+}
+.card-btns:hover {
+  background-color: #d71ad0 !important;
+}
+.cardText {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}

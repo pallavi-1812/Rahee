@@ -1,0 +1,40 @@
+.header {
+  background-image: linear-gradient(to right, #421c52, #8525a0);
+  height: 100%;
+}
+.left-header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 5rem;
+}
+.headpara {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.head-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #ce4fca !important;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #d71ad0 !important;
+}
+@media screen and (max-width: 992px) {
+  .left-header {
+    text-align: center;
+  }
+  .header-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .head-img {
+    padding-top: 1rem;
+  }
+}
