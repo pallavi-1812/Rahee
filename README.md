@@ -26,7 +26,9 @@ Run the server by going to server directory and running
 
 - npm install
 - npm start
+  
   Now, run the frontend by using the commands
+  
 - npm install
 - npm start
 
